@@ -12,8 +12,9 @@ Kinv = Vdc/sqrt(2);
 psim = 0.1194;
 J = 0.002700;
 B = 4.924e-4;
+TreadMill_Enable = 1;  % Treadmill Load Enable 1 = Treadmill load 0 = Constant Load
 %% Treadmill Load Parameters
-% Run_Velocity_KmpH = [0 5 8 12 16 20];
-% Stride_Length_mpers = [0 0.8 1.2 1.5 1.8 2.15];
+R_roller = 0.1; %%Roller Radius
+L_Stride = 1.8;%%Stride Length
 % Fric_Coeff = 0.6;
 % Gravity = 9.8; 
